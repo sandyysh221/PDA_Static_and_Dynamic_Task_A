@@ -26,7 +26,7 @@ class CardGame:
 
 
   dif highest_card(self, card1 card2): # 1) spelling error as it needs to be 'def' to define the method and 2) it's missing a comma between "card1" and "card2" to indicate they're two different arguments
-  if card1.value > card2.value: # should be indented to indicate it's a part of the "highest_card" method
+  if card1.value > card2.value: # lines 29-32 should be indented to indicate it's a part of the "highest_card" method
     return card # "card doesn't exist, should be "card1"
   else:
     return card2
@@ -34,7 +34,7 @@ class CardGame:
 
 
 
-def cards_total(self, cards): # not indented to indicate "cards_total" is part of CardGame class
+def cards_total(self, cards): # lines 37-41 not indented to indicate "cards_total" is part of CardGame class
   total # no declaration of what total should be, so should be total = 0;
   for card in cards:
     total += card.value
